@@ -18,3 +18,5 @@ server.on('published', function(packet, client) {
   console.log("made it this far")
   console.log('Published', packet.payload);
 });
+
+//comment
