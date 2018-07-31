@@ -1,9 +1,9 @@
 var mosca = require('mosca');
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3000
 console.log(`we have a port number ${PORT}`)
 var settings = {
-  port : PORT || 3000
+  port : PORT
 }
 
 var server = new mosca.Server(settings);
