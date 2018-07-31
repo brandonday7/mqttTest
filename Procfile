@@ -1,1 +1,1 @@
-server: node broker.js
+start: node broker.js
